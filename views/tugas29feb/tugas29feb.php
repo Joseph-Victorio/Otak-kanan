@@ -92,19 +92,19 @@
 
             </form>
         </div>
-        <table class="mx-auto mt-4 text-white anta-regular p-4">
-            <tr >
-                <th>Nama</th>
-                <th>Email</th>
-                <th>Whatsapp</th>
-                <th>Alamat</th>
+        <table class="mx-auto mt-4 text-white anta-regular p-4 border-white">
+            <tr class="border-white">
+                <th class="border-white p-2">Nama</th>
+                <th class="border-white p-2">Email</th>
+                <th class="border-white p-2">Whatsapp</th>
+                <th class="border-white p-2">Alamat</th>
             </tr>
             <?php foreach( $db->getUser() as $user) {?>
-            <tr class="text-center p-4">
-                <td><?php echo $user['Nama']?></td>
-                <td><?php echo $user['Email']?></td>
-                <td><?php echo $user['Whatsapp']?></td>
-                <td><?php echo $user['Alamat']?></td>
+            <tr class="text-center p-4 border-white">
+                <td class="border-white p-2"><?php echo $user['Nama']?></td>
+                <td class="border-white p-2"><?php echo $user['Email']?></td>
+                <td class="border-white p-2"><?php echo $user['Whatsapp']?></td>
+                <td class="border-white p-2"><?php echo $user['Alamat']?></td>
             </tr>
             <?php } ?>
         </table>
