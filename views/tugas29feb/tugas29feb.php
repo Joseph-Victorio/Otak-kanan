@@ -109,10 +109,6 @@
             <?php } ?>
         </table>
 
-        <hr>
-        <h2 class="anta-regular font-bold text-white">Source Code</h2>
-        
-
     </main>
 </body>
 </html>
